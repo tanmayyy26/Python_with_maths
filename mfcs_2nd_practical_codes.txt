@@ -1,0 +1,67 @@
+print("Hello, world!")  # Output: Hello, world!
+print("Python", "is", "fun", sep="-")  # Output: Python-is-fun
+
+
+
+name = input("Enter your name: ")
+print("Hello, " + name)
+
+
+
+age = int(input("Enter your age: "))# Converts input to an integer
+print("Your age is:", age)
+
+
+
+a = 5
+b = 2
+print(a + b)   # Addition
+print(a - b)   # Subtraction
+print(a * b)   # Multiplication
+print(a / b)   # Division
+print(a // b)  # Floor division
+print(a % b)   # Modulus
+print(a ** b)  # Exponentiation
+
+
+
+age = 18
+if age >= 18:
+    print("You are an adult.")
+
+
+
+marks = 85
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+else:
+    print("Grade C")
+
+
+
+for i in range(5):  # 0 to 4
+    print(i)
+
+
+
+x = 5
+while x > 0:
+    print(x)
+    x -= 1
+
+
+
+for i in range(5):
+    if i == 3:
+        break  # stops loop when i = 3
+    print(i)
+
+
+
+for i in range(5):
+    if i == 2:
+        continue  # skips the loop when i = 2
+    print(i)
+
